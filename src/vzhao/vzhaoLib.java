@@ -1,5 +1,5 @@
 package vzhao;
-
+//Vincent Zhao 9-18-18
 public class    vzhaoLib
 {
     public static String date(String date)
@@ -22,6 +22,7 @@ public class    vzhaoLib
             int y= x*base;
             System.out.println(y);
         }
+        //Multiplies
     }
     public static int leastCommonMultiple(int num1,int num2,int num3)
     {
@@ -38,7 +39,7 @@ public class    vzhaoLib
         {
             a=num3;
         }
-        //All the if statement above makes sure if all the parameters are equal to
+        //All the if statement above makes sure if all the parameters are equal to each other or just filters out the highest number
         for(int i=a;i<=a;i--)
         {
             if(num1%i==0&&num2%i==0&&num3%i==0)
@@ -47,16 +48,19 @@ public class    vzhaoLib
             }
         }
         return 0;
+        //the for statement above filters out the least common multiply untill it recieves a number
+        // it returns zero if it can't find anything
     }
     public static int sumUpTo(int end)
     {
        int c=0;
         for(int i=0;i<=end;i++)
         {
-
             c += i;
         }
         return c;
+        //this just adds up the number from 0 to the parameter number
+        //Example: end=3 0+1+2+3
     }
 
 }
