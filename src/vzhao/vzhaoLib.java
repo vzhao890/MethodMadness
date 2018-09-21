@@ -23,6 +23,29 @@ public class    vzhaoLib
             System.out.println(y);
         }
     }
-     bana
+    public static int leastCommonMultiple(int num1,int num2,int num3)
+    {
+        int a=0;
+        if(num1>=num2&&num1>=num3)
+        {
+            a=num1;
+        }
+        if(num2>=num1&&num2>=num3)
+        {
+            a=num2;
+        }
+        else
+        {
+            a=num3;
+        }
+        for(int i=a;i<=a;i--)
+        {
+            if(num1%i==0&&num2%i==0&&num3%i==0)
+            {
+                return i;
+            }
+        }
+        return 0;
+    }
 
 }
