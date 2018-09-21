@@ -1,6 +1,6 @@
 package vzhao;
 
-public class vzhaoLib
+public class    vzhaoLib
 {
     public static String date(String date)
     {
@@ -23,6 +23,6 @@ public class vzhaoLib
             System.out.println(y);
         }
     }
-
+     
 
 }
