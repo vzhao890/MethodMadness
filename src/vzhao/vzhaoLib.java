@@ -38,6 +38,7 @@ public class    vzhaoLib
         {
             a=num3;
         }
+        //All the if statement above makes sure if all the parameters are equal to
         for(int i=a;i<=a;i--)
         {
             if(num1%i==0&&num2%i==0&&num3%i==0)
@@ -46,6 +47,16 @@ public class    vzhaoLib
             }
         }
         return 0;
+    }
+    public static int sumUpTo(int end)
+    {
+       int c=0;
+        for(int i=0;i<=end;i++)
+        {
+
+            c += i;
+        }
+        return c;
     }
 
 }
