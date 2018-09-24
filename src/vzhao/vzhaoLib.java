@@ -9,20 +9,32 @@ public class    vzhaoLib
         String y = date.substring(6,date.length());
         return d+  "-"  +m+  "-"  +y;
     }
+    /*
+    The String d separates the day from String date.
+    The String m separates the month from String date.
+    The String y separates the year from String date.
+    This returns the individual strings of d.m.y into the required format.
+     */
     public static String cutOut(String mainStr, String subStr)
     {
         int index =mainStr.indexOf(subStr);
         String a = mainStr.substring(index+3,mainStr.length());
         return a;
     }
+    /*
+    The index finds out the first occurence of what mainStr is(which is cat)
+    Then The String a finds the end of string mainStr and everything further
+    This returns Strings A(which is explained in above comment)
+     */
     public static void multiplyTable(int base,int range)
     {
-        for(int x=0;range>=x;x++)
+        for(int x=0;range>=x;x++) //This for loop is set at 0. Then x has to be less than or equal to the range variable.If true,If true, add one to x.
         {
-            int y= x*base;
+            int y= x*base;  //Multiplies x variable with
+            
             System.out.println(y);
         }
-        //Multiplies
+
     }
     public static int leastCommonMultiple(int num1,int num2,int num3)
     {
