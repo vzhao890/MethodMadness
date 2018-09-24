@@ -1,10 +1,10 @@
 package vzhao;
 //Vincent Zhao 9-18-18
-import static vzhao.vzhaoLib.date;
-import static vzhao.vzhaoLib.cutOut;
-import static vzhao.vzhaoLib.multiplyTable;
-import static vzhao.vzhaoLib.leastCommonMultiple;
-import static vzhao.vzhaoLib.sumUpTo;
+import static vzhao.VZhaoLib.date;
+import static vzhao.VZhaoLib.cutOut;
+import static vzhao.VZhaoLib.multiplyTable;
+import static vzhao.VZhaoLib.leastCommonMultiple;
+import static vzhao.VZhaoLib.sumUpTo;
 public class testFile
 {
    public static void main(String[] args)

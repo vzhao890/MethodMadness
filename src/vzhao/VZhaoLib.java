@@ -1,6 +1,6 @@
 package vzhao;
 //Vincent Zhao 9-18-18
-public class    vzhaoLib
+public class    VZhaoLib
 {
     public static String date(String date)
     {
