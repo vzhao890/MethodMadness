@@ -28,12 +28,15 @@ public class    vzhaoLib
      */
     public static void multiplyTable(int base,int range)
     {
+       String b="";
         for(int x=0;range>=x;x++) //This for loop is set at 0. Then x has to be less than or equal to the range variable.If true,If true, add one to x.
         {
-            int y= x*base;  //Multiplies x variable with
-            
-            System.out.println(y);
+            int y= x*base;  //Multiplies x variable with the base
+            String a= String.valueOf(y); //Finds the String value of the integer number
+            b= b+a+",";  //formats the String
+
         }
+        System.out.println(b); //Prints out the string
 
     }
     public static int leastCommonMultiple(int num1,int num2,int num3)
